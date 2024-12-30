@@ -1,5 +1,5 @@
 <template>
-    <div class="text-red-500">
+    <div class="text-blue-500">
         PageHomeư
     </div>
 </template>
