@@ -1,6 +1,6 @@
 <template>
     <div class="text-red-500">
-        PageHomeư
+        PageHome
     </div>
 </template>
 
