@@ -1,12 +1,11 @@
 <template>
     <div>
-        Trang đăng nhập
+        Trang đang được phát triển
     </div>
 </template>
 
 <script setup lang="ts">
 
-   
 </script>
 
 <style lang="scss" scoped>

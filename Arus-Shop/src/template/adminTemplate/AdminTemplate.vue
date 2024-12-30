@@ -1,11 +1,9 @@
 <template>
-    <div>
-        Trang đang được phát triển
-    </div>
+    <router-view/>
 </template>
 
 <script setup lang="ts">
-    
+
 </script>
 
 <style lang="scss" scoped>

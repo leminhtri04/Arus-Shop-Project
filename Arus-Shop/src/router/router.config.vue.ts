@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../Page/User/Home/HomeUser.vue";
 import UserTemplate from "../template/userTemplate/UserTemplate.vue";
-import PageMore from "../Page/More/PageMore.vue";
-import HomeAdmin from "../Page/Admin/HomeAdmin.vue";
+import HomeClient from "../Page/User/Home/HomeClient.vue";
+import More from "../Page/More/More.vue";
+import HomeAdmin from "../Page/Admin/Home/HomeAdmin.vue";
 
 const routes = [
   {
@@ -11,11 +11,11 @@ const routes = [
     children: [
       {
         path: "",
-        component: Home,
+        component: HomeClient,
       },
       {
         path: "trang-chu",
-        component: Home,
+        component: HomeClient,
       },
     ],
   },
@@ -35,7 +35,7 @@ const routes = [
   },
   {
     path: "/:pathMatch(.*)*",
-    component: PageMore,
+    component: More,
   },
 ];
 
