@@ -1,8 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../Page/User/Home/HomeUser.vue";
-import UserTemplate from "../template/userTemplate/UserTemplate.vue";
-import PageMore from "../Page/More/PageMore.vue";
-import HomeAdmin from "../Page/Admin/HomeAdmin.vue";
+import Home from './'
 
 const routes = [
   {
@@ -11,7 +8,7 @@ const routes = [
     children: [
       {
         path: "",
-        component: Home,
+        component: c,
       },
       {
         path: "trang-chu",
